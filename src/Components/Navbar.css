@@ -1,7 +1,7 @@
 .n-wrapper {
   margin: 0;
   padding: 0;
-  height: 90px;
+  height: 100px;
   width: 100%;
   background: none;
   display: flex;
@@ -113,5 +113,62 @@ a {
   100% {
     transform: rotate(360deg);
   }
+}
+
+@media(max-width: 1000px){
+  .n-right{
+    display: none;
+  }
+  .n-right-small{
+    color: #f9efff;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+}
+
+.n-right-small{
+  display: none;
+}
+
+.menuTab{
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  width: 350px;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+.menuTab ul{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.menuTab ul li{
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  text-align: right;
+  padding: 15px 0;
+  border-bottom:  2px solid #000000;
+  
+}
+
+.menuTabOpen{
+  display: block;
+}
+
+.customMenuIconClose{
+  display: none;
 }
 
