@@ -23,4 +23,7 @@ body{
   body{
     width: fit-content;
   }
+  *{
+    font-size: large;
+  }
 }
