@@ -60,17 +60,17 @@ const Home = () => {
 
       <div className="my_services">
         <div className="services_text">
-          <h1>My Skills</h1>
-          <br />
-          <p>
-            I am a Computer Science Engineering student at SRM with Expertise in
-            Full Stack Development
-          </p>
-          <br />
-          <br />
-          <a href={directDownloadLink} download="file.pdf">
-            <button className="btn">Download Resume</button>
-          </a>
+            <h1>My Skills</h1>
+            <br />
+            <p>
+              I am a Computer Science Engineering student at SRM with Expertise in
+              Full Stack Development
+            </p>
+            <br />
+            <br />
+            <a href={directDownloadLink} download="file.pdf">
+              <button className="btn">Download Resume</button>
+            </a>
         </div>
 
         <div className="services_info">
@@ -148,7 +148,7 @@ const Home = () => {
               ></textarea>
             </div>
             <button type="submit" className="form-submit-btn">
-              Submit
+              Submit 
             </button>
           </form>
         </div>

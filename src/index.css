@@ -1,10 +1,14 @@
 *{
-  /* align-items: center; */
   color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'D-DIN', Arial, Verdana, sans-serif;
 }
 
 body{
+  width: 100%;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -13,4 +17,10 @@ body{
   font-family: 'D-DIN';
   font-weight: bolder;
   src: url('/public/D-DIN.ttf')format('truetype');
+}
+
+@media(max-width: 800px){
+  body{
+    width: fit-content;
+  }
 }

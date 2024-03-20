@@ -1,4 +1,6 @@
 .n-wrapper {
+  margin: 0;
+  padding: 0;
   height: 90px;
   width: 100%;
   background: none;
@@ -112,3 +114,4 @@ a {
     transform: rotate(360deg);
   }
 }
+
