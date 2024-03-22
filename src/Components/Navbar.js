@@ -95,7 +95,9 @@ const Navbar = () => {
 
       <div className="n-right-small">
         <div className={`customMenuIcon ${customMenuIcon ? '' : 'customMenuIconClose'}`}>
-          <MenuIcon fontSize="large" onClick={() => {setCustomMenuIcon(false); setMenuTab(true);}}/>
+          <MenuIcon fontSize="large" onClick={() => {setCustomMenuIcon(false); setMenuTab(true);}}
+          style={{ color: 'red'}}
+          className="customIcon"/>
         </div>
       </div>
       <div className={`menuTab ${menuTab ? 'menuTabOpen' : ''}`} style={menuTabStyle}> 

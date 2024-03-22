@@ -150,7 +150,7 @@ a {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .menuTab ul li{
@@ -172,3 +172,22 @@ a {
   display: none;
 }
 
+.customMenuIcon{
+  
+}
+
+@media(max-width: 500px){
+  .n-wrapper{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+  }
+  
+  .n-name{
+    display: none;
+  }
+
+  .customIcon path{
+    color: #f9efff;
+  }
+}

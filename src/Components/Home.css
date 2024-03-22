@@ -360,3 +360,92 @@
     margin: 0 0 100px 0;
   }
 }
+
+@media(max-width: 500px){
+  .i-name{
+    padding: 150px 0 50px 0;
+    background-position: right;
+    height: max-content;
+    text-shadow: 
+        -0.75px -0.75px 0 #000,  
+         0.75px -0.75px 0 #000,
+        -0.75px  0.75px 0 #000,
+         0.75px  0.75px 0 #000;
+  }
+
+  .i-name-text{
+    padding: 20px;
+    width: 100px;
+  }
+
+  .i-name-text h1{
+    width: max-content;
+    font-size: 36px;
+    margin: 0 30px;
+  }
+
+  .i-name-text p{
+    color: #ffffff;
+    font-weight: normal;
+    width: 300px;
+    margin: 50px 30px;
+  }
+
+  .social_icons{
+    padding: 0;
+  }
+  
+  .i-icons{
+    margin: -20px 30px 0 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .my_services{
+    align-items: flex-start;
+    height: max-content;
+  }
+
+  .services_text{
+    margin: 100px 50px 0px 50px;
+    width: 100px;
+  }
+
+  .services_text h1{
+    width: max-content;
+    font-size: 36px;
+  }
+
+  .services_text p{
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 10px;
+    width: 300px;
+  }
+
+  .cardholder{
+    flex-direction: column;
+  }
+  
+  .btn{
+    margin: 30px 0px 30px 0;
+  }
+
+  .services_info{
+    width: -webkit-fill-available;
+    margin-top: auto;
+  }
+
+  .contact_text{
+    padding: 50px;
+  }
+
+  .contact_text h1{
+    font-size: 36px;
+  }
+
+  .form-container{
+    width: 80%;
+  }
+}
