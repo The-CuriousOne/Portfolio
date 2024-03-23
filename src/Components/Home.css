@@ -364,7 +364,7 @@
 @media(max-width: 500px){
   .i-name{
     padding: 150px 0 50px 0;
-    background-position: 0%;
+    background-position: 60%;
     height: max-content;
   }
 
