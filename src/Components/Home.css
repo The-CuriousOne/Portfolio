@@ -364,7 +364,7 @@
 @media(max-width: 500px){
   .i-name{
     padding: 150px 0 50px 0;
-    background-position: right;
+    background-position: 0%;
     height: max-content;
   }
 
@@ -380,7 +380,6 @@
   }
 
   .i-name-text p{
-    color: #ffffff;
     font-weight: normal;
     width: 300px;
     margin: 50px 30px;
