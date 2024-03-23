@@ -6,6 +6,18 @@
   background: none;
   display: flex;
   justify-content: space-between;
+  
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.n-right .n-list ul li a h3{
+  color: #ffffff;
+}
+
+.n-left .n-name h2{
+  color: #ffffff;
 }
 
 .n-left {
@@ -164,6 +176,10 @@ a {
   
 }
 
+.menuTab ul li a h3{
+  color: #000000;
+}
+
 .menuTabOpen{
   display: block;
 }
@@ -172,13 +188,16 @@ a {
   display: none;
 }
 
-.customMenuIcon{
-  
+.customIcon{
+  height: 36px;
+  padding: 0;
 }
+
+
 
 @media(max-width: 500px){
   .n-wrapper{
-    position: fixed;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
   }

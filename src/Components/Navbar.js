@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = () => {
@@ -95,9 +94,12 @@ const Navbar = () => {
 
       <div className="n-right-small">
         <div className={`customMenuIcon ${customMenuIcon ? '' : 'customMenuIconClose'}`}>
-          <MenuIcon fontSize="large" onClick={() => {setCustomMenuIcon(false); setMenuTab(true);}}
-          style={{ color: 'red'}}
-          className="customIcon"/>
+        <img
+                src={process.env.PUBLIC_URL + "/menu.png"}
+                alt="LinkedIn Icon"
+                className="customIcon"
+                onClick={() => {setCustomMenuIcon(false); setMenuTab(true)}}
+              />
         </div>
       </div>
       <div className={`menuTab ${menuTab ? 'menuTabOpen' : ''}`} style={menuTabStyle}> 
