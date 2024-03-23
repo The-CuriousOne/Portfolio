@@ -16,6 +16,10 @@
   color: #ffffff;
 }
 
+.n-name{
+  display: none;
+}
+
 .n-left .n-name h2{
   color: #ffffff;
 }

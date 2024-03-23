@@ -16,6 +16,7 @@
 }
 
 .i-name-text {
+  padding: 100px 0;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -23,6 +24,7 @@
 }
 
 .i-name-text h1 {
+  padding: 100px 0 0 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -199,7 +201,7 @@
 }
 
 .i-icons a img {
-  height: 70px;
+  height: 50px;
 
 }
 
